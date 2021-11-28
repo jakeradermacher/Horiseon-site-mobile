@@ -4,15 +4,21 @@
     margin: 0;
 }
 
+:root {
+    --white: #ffffff;
+}
+
 body {
     background-color: #d9dcd6;
 }
+
+/* HEADER STYLES START */
 
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
-    color: #ffffff;
+    color: var(--white);
 }
 
 .header h1 {
@@ -41,8 +47,10 @@ body {
     margin-left: 25px;
 }
 
+/* HEADER STYLES END */
+
 a {
-    color: #ffffff;
+    color: var(--white);
     text-decoration: none;
 }
 
@@ -70,6 +78,8 @@ p {
     margin-left: 25px;
 }
 
+/* BODY STYLES START */
+
 .content {
     width: 75%;
     display: inline-block;
@@ -89,7 +99,7 @@ p {
 
 .benefits div {
     margin-bottom: 32px;
-    color: #ffffff;
+    color: var(--white);
 }
 
 .benefits h3 {
@@ -109,7 +119,7 @@ p {
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
-    color: #ffffff;
+    color: var(--white);
 }
 
 .content img {
@@ -120,6 +130,8 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
+/* BODY STYLES END */
 
 .footer {
     padding: 30px;
@@ -132,7 +144,7 @@ p {
     font-size: 20px;
 }
 
-/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND MOBILE DEVICES */
 @media screen and (max-width: 980px) {
    
     .hero {
