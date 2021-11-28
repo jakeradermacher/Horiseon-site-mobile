@@ -199,13 +199,26 @@ p {
     }
 
     .benefits {
-        margin-right: 10px;
-        margin-left: 15px;
-        padding: 10px;
+        margin: 0 10px 10px 15px;
+        padding: 10px 10px 0 10px;
+    }
+
+    .benefits div {
+        margin-bottom: 16px;
+    }
+
+    .benefits h3 {
+    font-size: 12px;
+    margin-bottom: 5px;
+    }
+
+    .benefits img {
+        margin: 5px auto;
+    max-width: 75px;
     }
 
     .footer {
-        visibility: hidden;
+        display: none;
     }
 }
 
