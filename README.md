@@ -8,7 +8,7 @@ To adapt the Horiseon company's official website for viewing on smaller displays
 * CSS
 
 ## Website
-https://lernantino.github.io/run-buddy/
+https://jakeradermacher.github.io/Horiseon-site-mobile/
 
 ## Contribution
 Jake Radermacher
