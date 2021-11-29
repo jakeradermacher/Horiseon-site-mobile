@@ -11,5 +11,5 @@ To adapt the Horiseon company's official website for viewing on smaller displays
 https://jakeradermacher.github.io/Horiseon-site-mobile/
 
 ## Contribution
-Jake Radermacher
+Jake Radermacher,
 Xander Rapstine
