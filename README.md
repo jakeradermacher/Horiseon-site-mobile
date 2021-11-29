@@ -12,4 +12,4 @@ https://jakeradermacher.github.io/Horiseon-site-mobile/
 
 ## Contribution
 Jake Radermacher
-Xander Rapstein
+Xander Rapstine
