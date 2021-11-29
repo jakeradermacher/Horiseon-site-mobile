@@ -144,7 +144,7 @@ p {
     font-size: 20px;
 }
 
-/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND MOBILE DEVICES */
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS */
 @media screen and (max-width: 980px) {
    
     .hero {
@@ -227,6 +227,92 @@ p {
     .benefits img {
         margin: 5px auto;
     max-width: 75px;
+    }
+
+    .footer {
+        display: none;
+    }
+}
+
+/* MEDIA QUERY FOR MOBILE DEVICES */
+@media screen and (max-width: 576px) {
+   
+    .hero {
+        height: 200px;
+        width: 100%;
+        margin-bottom: 7px;
+    }
+
+    .header {
+        padding: 5px;
+        width: 100%;
+    }
+
+    .header h1 {
+        font-size: 12px;
+        padding: 3px 0 3px 2px;
+    }
+
+    .header div {
+        padding-top: 7px;
+        margin-right: 0px;
+        float: right;
+        font-size: 6px;
+    }
+    
+    .header div ul {
+        list-style-type: none;
+    }
+    
+    .header div ul li {
+        display: inline-block;
+        margin-left: 3px;
+    }
+    
+    p {
+        font-size: 4px;
+    }
+
+    .content {
+        margin-left: 0;
+    }
+
+    .content div {
+        height: 75px;
+        width: 100%;
+        padding: 12px;
+        margin-bottom: 5px;
+        margin-left: 5px;
+    }
+
+    .content img {
+        height: 50px;
+        margin-bottom: 5px;
+    }
+
+    .content h2 {
+        line-height: 1;
+        margin-bottom: 5px;
+        font-size: 12px;
+    }
+
+    .benefits {
+        margin: 0 5px 5px 7px;
+        padding: 5px 5px 0 5px;
+    }
+
+    .benefits div {
+        margin-bottom: 8px;
+    }
+
+    .benefits h3 {
+    font-size: 8px;
+    margin-bottom: 3px;
+    }
+
+    .benefits img {
+        margin: 3px auto;
+    max-width: 38px;
     }
 
     .footer {
